@@ -4,22 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Interest Calculator</title>
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
+    <i class="bi bi-list mobile-nav-toggle d-xl-none bi-x"></i>
     <div class="container">
+        <h1 style="color:aliceblue;">Simple Interest Calculator</h1>
       <div class="input-wrapper">
         <div class="wrapper">
           <label for="principal">Principal($):</label>
           <input type="number" id="principal" value="1000" />
         </div>
         <div class="wrapper">
-          <label for="rate">Rate:</label>
+          <label for="rate">Rate:  <i class='fas fa-search-dollar'></i></label>
           <input type="number" id="rate" value="5" />
         </div>
       </div>
@@ -31,6 +30,7 @@
           <option value="month">Month</option>
         </select>
       </div>
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
       <button id="calculate-btn">Calculate</button>
       <div id="result"></div>
     </div>
