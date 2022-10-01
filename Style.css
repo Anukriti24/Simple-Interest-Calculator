@@ -7,21 +7,34 @@
   body {
     height: 100vh;
     background: linear-gradient(90deg, rgba(179,52,178,1) 0%, rgba(182,120,49,1) 28%, rgba(106,68,159,1) 56%, rgba(23,137,190,1) 78%, rgba(0,212,255,1) 100%);
+    background-image:url(Fixed-Deposit-Interest-Calculator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    height: 400px;
+    
     
   }
   .container {
-    background-color: #000000;
+    background-color:black;
+    background: linear-gradient;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
-    width: 80vw;
+    left: 67%;
+    width: 75vw;
     max-width: 600px;
     min-width: 350px;
     padding: 60px 30px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   }
+  .container h1
+{
+    margin: 10px;
+    position: absolute;
+    top:1.5%;
+}
   label {
     display: block;
     font-size: 22px;
@@ -39,7 +52,7 @@
   }
   input:focus {
     outline: none;
-    border-bottom: 2.4px solid #01e26e;
+    border-bottom: 2.4px solid #127e78;
   }
   .input-wrapper {
     display: flex;
@@ -62,7 +75,7 @@
   }
   button {
     display: block;
-    background-color: #01e26e;
+    background-color:darkblue;
     border: none;
     color: #ffffff;
     margin: 20px auto 0 auto;
@@ -73,7 +86,7 @@
   #result {
     background-color: #c6ffe2;
     margin-top: 30px;
-    color: #585858;
+    color: black;
     text-align: center;
     font-size: 18px;
     padding: 20px;
